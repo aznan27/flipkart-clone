@@ -4,4 +4,21 @@
     padding: 10px 20px;
     cursor: pointer;
     border-radius: 8px;
+    transition: 0.5s ease-in-out;
+
+}
+
+.settings-btn:hover {
+    background-color: #ced0d335;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 8px;
+    display: flex;
+    transition: 0.5s ease-in-out;
+
+}
+
+.angle-down:hover {
+    transform: rotate(0.5turn);
+    transition: 0.5s ease-in-out;
 }
