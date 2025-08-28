@@ -22,9 +22,3 @@
     transform: rotate(0.5turn);
     transition: 0.5s ease-in-out;
 }
-
-@media (max-width:450px) {
-    .header {
-        width: 110rem;
-    }
-}
