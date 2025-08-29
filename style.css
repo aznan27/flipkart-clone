@@ -22,3 +22,20 @@
     transform: rotate(0.5turn);
     transition: 0.5s ease-in-out;
 }
+
+@media (max-width:450px) {
+    .header {
+        display: flex;
+
+    }
+
+    .image-flip {
+        width: 5rem;
+        margin-top: 1.8rem;
+        margin-left: 12rem;
+    }
+
+    .search-bar {
+        background-color: #0d6efd;
+    }
+}
